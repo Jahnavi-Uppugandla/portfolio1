@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+#certifications, #contact, #projects, #about, #resume, #skills{
+    background-color: white;
+    transition: background-color 0.5s ease; /* Transition for background color change */
+  }
+#about{
+    background-color: gray; 
+}
+#certifications{
+    background-color: black;
+}
+
+  #resume:hover {
+    background-color: SkyBlue;
+  }
+
+  #contact:hover {
+    background-color:lightseagreen ;
+  }
+
+  #projects:hover {
+    background-color: lightgreen;
+  }
+
+  #about:hover {
+    background-color: lavenderblush;
+  }
+
+  #skills:hover {
+    background-color: slateblue;
+  }
+
+  #slideshow:hover {
+    background-color: DarkSalmon
+  } 
+  .nav-link {
+    color: #ffffff; 
+    margin-right: 1.25rem; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  nav {
+    margin-right: auto;
+    margin-left: 1rem; 
+    padding: 0.5rem;
+    border-left: 2px solid #ff3e56; 
+  }
+
+  .nav-link.active {
+    color: #ff3e56; 
+    font-weight: bold;
+  }
